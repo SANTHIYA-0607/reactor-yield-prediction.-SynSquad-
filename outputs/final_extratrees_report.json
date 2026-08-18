@@ -1,0 +1,46 @@
+{
+  "final_model": "ExtraTreesRegressor",
+  "final_feature_set": "Feature Set B",
+  "n_features": 9,
+  "features": [
+    "flow_rate_L_min",
+    "concentration_mol_L",
+    "inlet_temperature_K",
+    "length_m",
+    "jacket_temperature_K",
+    "res_time_proxy",
+    "temp_avg",
+    "jacket_x_restime",
+    "inlet_x_restime"
+  ],
+  "validation_metric": "RMSE",
+  "validation_rmse": 16.2273,
+  "validation_std": 2.1423,
+  "validation_note": "Local validation result supplied in the project report; not the hidden competition score.",
+  "model_parameters": {
+    "n_estimators": 300,
+    "max_depth": 6,
+    "min_samples_leaf": 3,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "train_rows": 150,
+  "test_rows": 50,
+  "prediction_min": 0.1518177060649797,
+  "prediction_max": 83.1664097304711,
+  "prediction_mean": 29.09662753239753,
+  "rows_clipped_to_0_100": 0,
+  "feature_importance": {
+    "temp_avg": 0.3926280265198837,
+    "inlet_temperature_K": 0.23092927248026207,
+    "jacket_temperature_K": 0.1605605222970203,
+    "inlet_x_restime": 0.055154910759503385,
+    "res_time_proxy": 0.0432219659442266,
+    "jacket_x_restime": 0.04272780705079427,
+    "flow_rate_L_min": 0.0313595830863878,
+    "length_m": 0.031192950132729793,
+    "concentration_mol_L": 0.012224961729191974
+  },
+  "submission_file": "outputs/submission.csv",
+  "model_file": "model/final_extratrees_model.joblib"
+}
