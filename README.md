@@ -151,7 +151,7 @@ The final prediction file is:
 
 Before uploading to Unstop, rename it to:
 
-`[TeamName].csv`
+`SynSquad.csv`
 
 Only this single final submission CSV is included under `outputs/`.
 
@@ -203,10 +203,6 @@ reactor-yield-prediction/
 
 ## Team information
 
-**Team:** `[TeamName]`
+**Team:** SynSquad
 
-**Members:** `[Add team members]`
 
-## License / competition use
-
-Prepared for the ML hackathon submission workflow. Replace placeholders in the team-information section before publishing.
